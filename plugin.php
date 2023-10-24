@@ -10,6 +10,8 @@ License: GPLv2 or later
 Text Domain: ci_meters_to_feet_converter
 */
 
+if (!defined('ABSPATH')) exit;
+
 if (!function_exists('add_shortcode')) return "No direct call for Meters to Feet Converter by Calculator.iO";
 
 function display_ci_meters_to_feet_converter(){
