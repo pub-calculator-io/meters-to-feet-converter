@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Meters to Feet Converter](https://www.calculator.io/meters-to-feet-converter/ "Meters to Feet Converter Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_meters_to_feet_converter]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Meters to Feet Converter to the sidebar through the `Appearance -> Widgets -> Meters to Feet Converter` menu in WordPress.
+* Add the shortcode `[ci_meters_to_feet_converter]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_meters_to_feet_converter(); ?>` to your template where you would like the Meters to Feet Converter to appear.
 
 == Screenshots ==
