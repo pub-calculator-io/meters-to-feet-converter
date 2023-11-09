@@ -13,6 +13,8 @@ Convert meters to feet & inches using a meters to feet calculator. Choose decima
 
 Convert meters to feet & inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.
 
+[Meters to Feet Converter Homepage](https://www.calculator.io/meters-to-feet-converter/ "Meters to Feet Converter Homepage")
+
 __Shortcode__
 
 Use the Meters to Feet Converter shortcode:
