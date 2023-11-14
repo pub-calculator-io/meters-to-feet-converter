@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Convert meters to feet & inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.
 
-== Description ==
-
-Convert meters to feet & inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.
-
 [https://www.calculator.io/meters-to-feet-converter/](https://www.calculator.io/meters-to-feet-converter/)
 
-__Meters to Feet Converter Shortcode__
+== Usage ==
+
+Add the Meters to Feet Converter shortcode to your page, post or sidebar:
 
 `[ci_meters_to_feet_converter]`
 
-== Installation ==
+Add the following code to your template where you would like the Meters to Feet Converter to appear:
 
-1. Upload the /ci_meters_to_feet_converter/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Meters to Feet Converter](https://www.calculator.io/meters-to-feet-converter/ "Meters to Feet Converter Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Meters to Feet Converter Usage ==
-
-* Add the shortcode `[ci_meters_to_feet_converter]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_meters_to_feet_converter(); ?>` to your template where you would like the Meters to Feet Converter to appear.
+`<?php display_ci_meters_to_feet_converter(); ?>`
 
 == Screenshots ==
 
 1. The Meters to Feet Converter Input Form.
 2. The Meters to Feet Converter Calculation Results.
 
-== Libraries used in Meters to Feet Converter ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Meters to Feet Converter /ci_meters_to_feet_converter/ folder to the /wp-content/plugins/ directory.
+2. Activate the Meters to Feet Converter plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Meters to Feet Converter
