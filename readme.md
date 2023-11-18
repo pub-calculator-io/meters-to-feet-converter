@@ -1,4 +1,4 @@
-# Meters to Feet Converter WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Meters to Feet Converter Widget for WordPress
 
 Convert meters to feet & inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.
 
