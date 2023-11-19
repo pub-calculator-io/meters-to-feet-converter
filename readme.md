@@ -7,7 +7,7 @@ Convert meters to feet & inches using a meters to feet calculator. Choose decima
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/meters-to-feet-converter/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /meters-to-feet-converter-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Meters to Feet Converter](https://www.calculator.io/meters-to-feet-converter/ "Meters to Feet Converter Homepage") plugin through the "Plugins" menu in WordPress.
 

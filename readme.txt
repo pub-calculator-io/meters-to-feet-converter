@@ -1,4 +1,4 @@
-=== Meters to Feet Converter ===
+=== Meters to Feet Converter by www.calculator.io ===
 Contributors: calculatorio
 Tags: meters to feet converter, meters to feet conversion, meters to feet calculator, convert meters to feet, meter to foot conversion, meter to foot calculator, meters into feet conversion, meters in feet formula, metric to imperial conversion, length unit converter
 Requires at least: 5.0
