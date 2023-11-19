@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Meters to Feet Converter by www.calculator.io
+Plugin Name: CI Meters to feet converter
 Plugin URI: https://www.calculator.io/meters-to-feet-converter/
 Description: Convert meters to feet & inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.
 Version: 1.0.0
