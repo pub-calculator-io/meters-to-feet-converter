@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Meters to Feet 
 == Screenshots ==
 
 1. The Meters to Feet Converter Input Form.
-2. The Meters to Feet Converter Calculation Results.
 
 == Installation ==
 

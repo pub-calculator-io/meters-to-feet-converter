@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col tab tab--active" data-tab="0">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col unit-converter,volume-calculator,area-calculator,height-converter,cubic-yards-calculator,distance-formula-calculator,distance-calculator,cylinder-volume-calculator  ">
                 			<p class="input__title">Length in Meters</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="length_meters" value="1"  />
@@ -38,14 +38,14 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col unit-converter,volume-calculator,area-calculator,height-converter,cubic-yards-calculator,distance-formula-calculator,distance-calculator,cylinder-volume-calculator  ">
                 			<p class="input__title">Decimal Places</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="decimal_places" value="5"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col unit-converter,volume-calculator,area-calculator,height-converter,cubic-yards-calculator,distance-formula-calculator,distance-calculator,cylinder-volume-calculator  ">
                 			<p class="input__title">Inch Fraction</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="inch_fraction" value="8"  />
@@ -60,13 +60,16 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Convert</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Convert</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -81,8 +84,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<div class="result-table__wrapper"> 
 		<table class="result-table">
@@ -94,15 +96,15 @@
 			<tbody>
 				<tr>
 					<td>Meters</td>
-					<td><span id="meters_result">1</span> m</td>
+					<td><span id="meters_result" class="animate">1</span> m</td>
 				</tr>
 				<tr>
 					<td>Feet</td>
-					<td><span id="feet_result">3.28084</span> ft</td>
+					<td><span id="feet_result" class="animate">3.28084</span> ft</td>
 				</tr>
 				<tr>
 					<td>Rounded to the nearest <span id="inch_rounded">8th of an</span> inch</td>
-					<td id="inch_result">3 ft 3 3/8 in</td>
+					<td id="inch_result" class="animate">3 ft 3 3/8 in</td>
 				</tr>
 			</tbody>
 		</table>
